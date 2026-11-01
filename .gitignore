@@ -1,0 +1,34 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib_cache/
+
+# Node dependencies and compiled frontend
+node_modules/
+frontend/dist/
+.pnpm-store/
+.sites-runtime/
+
+# Downloads, previews, temporary files, and generated deliverables
+data/raw/
+frontend/previews/
+output/
+tmp/
+temp_ae.rda
+*.zip
+*.log
+
+# Local settings, credentials, and operating-system files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.codex/
+.agents/
+.DS_Store
+.vscode/
+.idea/
